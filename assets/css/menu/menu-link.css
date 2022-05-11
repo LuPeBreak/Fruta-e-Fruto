@@ -1,0 +1,30 @@
+.menu-item:last-child .menu-link{
+  margin-right: 0;
+}
+.menu-link{
+  display: inline-block;
+  color: #585858;
+  margin-right: 1.25rem;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+.menu-link.active{
+  color: #444444;
+  font-weight: bold;
+}
+.menu-link.active:after{
+  display:block;
+  content: '';
+  border-bottom: solid 2px #9FCF5F;  
+  transform: scaleX(1);  
+}
+.menu-link:after{
+  display:block;
+  content: '';
+  border-bottom: solid 2px #9FCF5F;  
+  transform: scaleX(0);  
+  transition: transform 400ms ease-in-out;
+}
+.menu-link:not(.active):hover:after {
+  transform: scaleX(1); 
+}
