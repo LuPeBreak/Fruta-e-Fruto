@@ -1,0 +1,16 @@
+.banner{
+  display: flex;
+  background: center url('../img/banner.jpg') no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner__title{
+  font-size: 3.5rem;
+  font-family: Pacifico,arial;
+  color: white;
+  text-shadow: black 1px 0 10px;
+}
