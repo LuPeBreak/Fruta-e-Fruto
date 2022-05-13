@@ -1,6 +1,6 @@
 .banner{
   align-items: center;
-  background: center url('../../img/banner.jpg') no-repeat;
+  background: url('../../img/banner.jpg') no-repeat center / cover;
   background-size: cover;
   display: flex;
   height: calc(100vh - 9.5rem);

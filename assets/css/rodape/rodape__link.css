@@ -1,0 +1,18 @@
+.rodape__link{
+  color:var(--main-color);
+  text-decoration: none;
+  font-family: Pacifico,cursive;
+  width: auto;
+}
+.rodape__link:after{
+  margin-top: 10px;
+  border-bottom: solid 2px var(--main-color);  
+  content: '';
+  display:block;
+  transform: scaleX(0);  
+  transition: transform 400ms ease-in-out;
+}
+
+.rodape__link:hover:after{
+  transform: scaleX(1); 
+}

@@ -1,8 +1,12 @@
 .header{
   align-items: center;
   background-color: #f9f9f9;
+  box-sizing: border-box;
   display: flex;
   height: 5.5rem;
   justify-content: space-between;
   padding: 0 3rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
