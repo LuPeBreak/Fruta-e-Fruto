@@ -1,4 +1,23 @@
 .pessoa{
   display: flex;
   flex-direction: column;
+  margin: 0 1rem;
+  padding: 1rem;
+}
+
+@media screen and (min-width:0) {
+  .pessoa{
+    background: #f1f1f1;
+    margin-bottom: 3rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 30px ;
+  }
+}
+@media screen and (min-width:887px) {
+  .pessoa{
+    background: transparent;
+    margin-bottom: 0.5rem;
+    border: none;
+  }
 }

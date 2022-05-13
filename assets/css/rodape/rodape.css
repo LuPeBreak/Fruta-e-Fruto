@@ -6,3 +6,14 @@
   padding: 1.5625rem 5rem;
   text-transform: lowercase;
 }
+
+@media screen and (min-width:0) {
+  .rodape{
+    justify-content: center;
+  }
+}
+@media screen and (min-width:768px) {
+  .rodape{
+    justify-content: flex-end;
+  }
+}

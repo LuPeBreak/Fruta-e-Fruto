@@ -4,9 +4,22 @@
   box-sizing: border-box;
   display: flex;
   height: 5.5rem;
-  justify-content: space-between;
   padding: 0 3rem;
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+@media screen and (min-width:0) {
+  .header{
+    justify-content: center;
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .header{
+    justify-content: space-between;
+    padding: 0 5rem;
+  }
 }
