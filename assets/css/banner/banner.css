@@ -1,12 +1,12 @@
 .banner{
-  display: flex;
+  align-items: center;
   background: center url('../../img/banner.jpg') no-repeat;
   background-size: cover;
-  width: calc(100% - 4rem);
+  display: flex;
   height: calc(100vh - 9.5rem);
   justify-content: center;
-  text-align: center;
-  align-items: center;
   padding: 2rem;
+  text-align: center;
+  width: calc(100% - 4rem);
 }
 
